@@ -2,7 +2,7 @@ import snake
 import json
 
 goes = []
-avg = 0####
+avg = 0
 
 def runGame():
     SNL = snake.game(json.load(open("board.json","r")))
